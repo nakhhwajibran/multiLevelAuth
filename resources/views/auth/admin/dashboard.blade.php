@@ -14,7 +14,7 @@
                     </div>
                     @endif
 
-                    You are logged in!
+                    {{Auth::user()->firstname}}, You are logged as Super Admin!
                 </div>
             </div>
         </div>
