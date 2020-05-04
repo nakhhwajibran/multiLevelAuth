@@ -135,6 +135,24 @@ return [
             'expire' => 60,
             'throttle' => 60,
         ],
+        'super_admin' => [
+            'provider' => 'super_admin',
+            'table' => 'password_resets',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
+        'support_user' => [
+            'provider' => 'support_user',
+            'table' => 'password_resets',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
+        'marketing_user' => [
+            'provider' => 'marketing_user',
+            'table' => 'password_resets',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
     ],
 
     /*

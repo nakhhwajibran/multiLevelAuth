@@ -19,6 +19,7 @@ class AdminController extends Controller
 
     public function dashboard()
     {
+
         $logOutRoutes = 'admin.logout';
         return view('auth.admin.dashboard')->with(compact('logOutRoutes'));
     }
